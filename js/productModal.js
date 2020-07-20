@@ -92,7 +92,7 @@ export default {
                         this.$emit('update');
                     });
             } else {//沒有id，就新增一筆到遠端
-                axios.post(addurl, this.tempData)
+                axios.post(addurl, this.tempData)//要注意資料需要的欄位都要有才能順利傳送
                     .then((res) => {
                         console.log(res);
                         this.$emit('update');

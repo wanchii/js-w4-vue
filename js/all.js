@@ -2,7 +2,7 @@
 //取得所有商品路徑- GET api/{uuid}/admin/ec/products
 //https://course-ec-api.hexschool.io/api/${this.user.uuid}/admin/ec/products
 
-import modal from './productModal'; // 把元件匯入all.js
+import modal from './productModal.js'; // 把元件匯入all.js
 import delModal from './deleteModal.js'; 
 
 Vue.component('modal',modal);//元件註冊
