@@ -11,7 +11,7 @@
 </head>
 <style>
     .loginForm {
-        max-width: 360px;
+        width: 300px;
     }
 </style>
 
@@ -61,7 +61,7 @@
         var app = new Vue({
             el: '#app',
             data: {
-                user: { //使用者email、password
+                user: { //使用者email、password，透過上方v-model雙向綁定
                     email: '',
                     password: '',
                 }
